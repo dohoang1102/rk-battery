@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C1BD5E154B725100BEAA34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C1BD5D154B725100BEAA34 /* Cocoa.framework */; };
+		94C1BD68154B725100BEAA34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C1BD66154B725100BEAA34 /* InfoPlist.strings */; };
+		94C1BD6C154B725100BEAA34 /* rk_battery.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C1BD6B154B725100BEAA34 /* rk_battery.m */; };
+		94C1BD74154B725200BEAA34 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C1BD73154B725200BEAA34 /* SenTestingKit.framework */; };
+		94C1BD75154B725200BEAA34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C1BD5D154B725100BEAA34 /* Cocoa.framework */; };
+		94C1BD78154B725200BEAA34 /* rk-battery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C1BD5A154B725100BEAA34 /* rk-battery.framework */; };
+		94C1BD7E154B725200BEAA34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C1BD7C154B725200BEAA34 /* InfoPlist.strings */; };
+		94C1BD81154B725200BEAA34 /* rk_batteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C1BD80154B725200BEAA34 /* rk_batteryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C1BD76154B725200BEAA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C1BD50154B725100BEAA34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1BD59154B725100BEAA34;
+			remoteInfo = "rk-battery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94C1BD5A154B725100BEAA34 /* rk-battery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "rk-battery.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C1BD5D154B725100BEAA34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		94C1BD60154B725100BEAA34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		94C1BD61154B725100BEAA34 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94C1BD62154B725100BEAA34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94C1BD65154B725100BEAA34 /* rk-battery-Info.plist */ = {isa = PBXFileReference; path = "rk-battery-Info.plist"; sourceTree = "<group>"; };
+		94C1BD67154B725100BEAA34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C1BD69154B725100BEAA34 /* rk-battery-Prefix.pch */ = {isa = PBXFileReference; path = "rk-battery-Prefix.pch"; sourceTree = "<group>"; };
+		94C1BD6A154B725100BEAA34 /* rk_battery.h */ = {isa = PBXFileReference; path = rk_battery.h; sourceTree = "<group>"; };
+		94C1BD6B154B725100BEAA34 /* rk_battery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rk_battery.m; sourceTree = "<group>"; };
+		94C1BD72154B725200BEAA34 /* rk-batteryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rk-batteryTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C1BD73154B725200BEAA34 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		94C1BD7B154B725200BEAA34 /* rk-batteryTests-Info.plist */ = {isa = PBXFileReference; path = "rk-batteryTests-Info.plist"; sourceTree = "<group>"; };
+		94C1BD7D154B725200BEAA34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C1BD7F154B725200BEAA34 /* rk_batteryTests.h */ = {isa = PBXFileReference; path = rk_batteryTests.h; sourceTree = "<group>"; };
+		94C1BD80154B725200BEAA34 /* rk_batteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rk_batteryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C1BD56154B725100BEAA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1BD5E154B725100BEAA34 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C1BD6E154B725200BEAA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1BD74154B725200BEAA34 /* SenTestingKit.framework in Frameworks */,
+				94C1BD75154B725200BEAA34 /* Cocoa.framework in Frameworks */,
+				94C1BD78154B725200BEAA34 /* rk-battery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C1BD4E154B725100BEAA34 = {
+			isa = PBXGroup;
+			children = (
+				94C1BD63154B725100BEAA34 /* rk-battery */,
+				94C1BD79154B725200BEAA34 /* rk-batteryTests */,
+				94C1BD5C154B725100BEAA34 /* Frameworks */,
+				94C1BD5B154B725100BEAA34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C1BD5B154B725100BEAA34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD5A154B725100BEAA34 /* rk-battery.framework */,
+				94C1BD72154B725200BEAA34 /* rk-batteryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C1BD5C154B725100BEAA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD5D154B725100BEAA34 /* Cocoa.framework */,
+				94C1BD73154B725200BEAA34 /* SenTestingKit.framework */,
+				94C1BD5F154B725100BEAA34 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C1BD5F154B725100BEAA34 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD60154B725100BEAA34 /* AppKit.framework */,
+				94C1BD61154B725100BEAA34 /* CoreData.framework */,
+				94C1BD62154B725100BEAA34 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		94C1BD63154B725100BEAA34 /* rk-battery */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD6A154B725100BEAA34 /* rk_battery.h */,
+				94C1BD6B154B725100BEAA34 /* rk_battery.m */,
+				94C1BD64154B725100BEAA34 /* Supporting Files */,
+			);
+			path = "rk-battery";
+			sourceTree = "<group>";
+		};
+		94C1BD64154B725100BEAA34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD65154B725100BEAA34 /* rk-battery-Info.plist */,
+				94C1BD66154B725100BEAA34 /* InfoPlist.strings */,
+				94C1BD69154B725100BEAA34 /* rk-battery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C1BD79154B725200BEAA34 /* rk-batteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD7F154B725200BEAA34 /* rk_batteryTests.h */,
+				94C1BD80154B725200BEAA34 /* rk_batteryTests.m */,
+				94C1BD7A154B725200BEAA34 /* Supporting Files */,
+			);
+			path = "rk-batteryTests";
+			sourceTree = "<group>";
+		};
+		94C1BD7A154B725200BEAA34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C1BD7B154B725200BEAA34 /* rk-batteryTests-Info.plist */,
+				94C1BD7C154B725200BEAA34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94C1BD57154B725100BEAA34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94C1BD59154B725100BEAA34 /* rk-battery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C1BD84154B725200BEAA34 /* Build configuration list for PBXNativeTarget "rk-battery" */;
+			buildPhases = (
+				94C1BD55154B725100BEAA34 /* Sources */,
+				94C1BD56154B725100BEAA34 /* Frameworks */,
+				94C1BD57154B725100BEAA34 /* Headers */,
+				94C1BD58154B725100BEAA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rk-battery";
+			productName = "rk-battery";
+			productReference = 94C1BD5A154B725100BEAA34 /* rk-battery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94C1BD71154B725200BEAA34 /* rk-batteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C1BD87154B725200BEAA34 /* Build configuration list for PBXNativeTarget "rk-batteryTests" */;
+			buildPhases = (
+				94C1BD6D154B725200BEAA34 /* Sources */,
+				94C1BD6E154B725200BEAA34 /* Frameworks */,
+				94C1BD6F154B725200BEAA34 /* Resources */,
+				94C1BD70154B725200BEAA34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C1BD77154B725200BEAA34 /* PBXTargetDependency */,
+			);
+			name = "rk-batteryTests";
+			productName = "rk-batteryTests";
+			productReference = 94C1BD72154B725200BEAA34 /* rk-batteryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C1BD50154B725100BEAA34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 94C1BD53154B725100BEAA34 /* Build configuration list for PBXProject "rk-battery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94C1BD4E154B725100BEAA34;
+			productRefGroup = 94C1BD5B154B725100BEAA34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C1BD59154B725100BEAA34 /* rk-battery */,
+				94C1BD71154B725200BEAA34 /* rk-batteryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C1BD58154B725100BEAA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1BD68154B725100BEAA34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C1BD6F154B725200BEAA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1BD7E154B725200BEAA34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94C1BD70154B725200BEAA34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C1BD55154B725100BEAA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1BD6C154B725100BEAA34 /* rk_battery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C1BD6D154B725200BEAA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1BD81154B725200BEAA34 /* rk_batteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C1BD77154B725200BEAA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C1BD59154B725100BEAA34 /* rk-battery */;
+			targetProxy = 94C1BD76154B725200BEAA34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C1BD66154B725100BEAA34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C1BD67154B725100BEAA34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94C1BD7C154B725200BEAA34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C1BD7D154B725200BEAA34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C1BD82154B725200BEAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94C1BD83154B725200BEAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94C1BD85154B725200BEAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rk-battery/rk-battery-Prefix.pch";
+				INFOPLIST_FILE = "rk-battery/rk-battery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		94C1BD86154B725200BEAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rk-battery/rk-battery-Prefix.pch";
+				INFOPLIST_FILE = "rk-battery/rk-battery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		94C1BD88154B725200BEAA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rk-battery/rk-battery-Prefix.pch";
+				INFOPLIST_FILE = "rk-batteryTests/rk-batteryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		94C1BD89154B725200BEAA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rk-battery/rk-battery-Prefix.pch";
+				INFOPLIST_FILE = "rk-batteryTests/rk-batteryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C1BD53154B725100BEAA34 /* Build configuration list for PBXProject "rk-battery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C1BD82154B725200BEAA34 /* Debug */,
+				94C1BD83154B725200BEAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C1BD84154B725200BEAA34 /* Build configuration list for PBXNativeTarget "rk-battery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C1BD85154B725200BEAA34 /* Debug */,
+				94C1BD86154B725200BEAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94C1BD87154B725200BEAA34 /* Build configuration list for PBXNativeTarget "rk-batteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C1BD88154B725200BEAA34 /* Debug */,
+				94C1BD89154B725200BEAA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C1BD50154B725100BEAA34 /* Project object */;
+}
